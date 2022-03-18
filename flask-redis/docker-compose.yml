@@ -2,7 +2,7 @@ services:
    redis: 
      image: redislabs/redismod
      ports:
-       - '6379:6379' 
+       - '6000:6000' 
    web:
         build: .
         ports:
